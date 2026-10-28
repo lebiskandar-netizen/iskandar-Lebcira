@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio journalistique — reportages TV, vidéos Mojo et photographie.">
+  <title>Iskandar Lebcira — Portfolio journalistique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#accueil" data-home-link aria-label="Retour à l'accueil"><span class="wordmark-mark">IL</span><span>Iskandar Lebcira<small>JOURNALISME · IMAGE · RÉCIT</small></span></a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Navigation principale" role="tablist">
+        <button class="nav-tab active" role="tab" id="tab-accueil" aria-controls="panel-accueil" aria-selected="true" data-tab="accueil">Accueil <span>01</span></button>
+        <button class="nav-tab" role="tab" id="tab-tv" aria-controls="panel-tv" aria-selected="false" data-tab="tv">Reportages TV <span>02</span></button>
+        <button class="nav-tab" role="tab" id="tab-mojo" aria-controls="panel-mojo" aria-selected="false" data-tab="mojo">Vidéos Mojo <span>03</span></button>
+        <button class="nav-tab" role="tab" id="tab-photos" aria-controls="panel-photos" aria-selected="false" data-tab="photos">Photographies <span>04</span></button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- PAGE D'ACCUEIL : présentation, contact et CV -->
+      <section class="page-panel active" id="panel-accueil" role="tabpanel" aria-labelledby="tab-accueil" data-panel="accueil">
+        <section class="hero">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-dot"></span> PORTFOLIO PROFESSIONNEL <span class="eyebrow-year">2026</span></div>
+            <h1>Raconter le monde.<br><em>Donner du sens aux images.</em></h1>
+            <p class="hero-lede">Journaliste, vidéaste et photographe, je m’intéresse aux enjeux de société, à la culture et aux récits qui éclairent notre époque.</p>
+            <div class="hero-actions">
+              <button class="button button-primary" data-go-tab="tv">Découvrir mes reportages <span>↗</span></button>
+              <a class="button button-ghost"href="./cv.pdf" target="_blank" rel="noopener">
+  Consulter mon CV
+</a>
+            </div>
+            <div class="hero-footnote"><span class="status-dot"></span> Disponible pour de nouveaux projets <span class="footnote-divider">/</span> Culture & société</div>
+          </div>
+          <div class="hero-visual" aria-label="Illustration graphique du travail de reportage" role="img">
+            <div class="visual-topline"><span>REGARDER</span><span>ÉCOUTER</span><span>TRANSMETTRE</span></div>
+            <div class="visual-circle circle-one"></div><div class="visual-circle circle-two"></div>
+            <div class="visual-cross">+</div>
+            <div class="visual-caption"><span>LE TERRAIN COMME POINT DE DÉPART</span><strong>Une image.<br>Une rencontre.<br>Une histoire.</strong></div>
+            <div class="visual-index">@iskandareporter</div>
+          </div>
+        </section>
+
+        <section class="intro-strip">
+          <span class="strip-label">MON APPROCHE</span>
+          <p>Prendre le temps de comprendre, aller à la rencontre, puis construire un récit juste, vivant et accessible.</p>
+          <span class="strip-signature">IL<span>®</span></span>
+        </section>
+
+        <section class="home-bottom">
+          <div class="about-block">
+            <p class="section-kicker">01 / QUI SUIS-JE ?</p>
+            <h2>Curieux du réel,<br><em>attentif aux autres.</em></h2>
+            <p class="body-copy">Je suis <strong>Iskandar Lebcira</strong>, journaliste et photographe. Mon travail s’articule autour de sujets de société et de culture. J’aime raconter le monde à hauteur de celles et ceux qui le vivent, en accordant une place essentielle au terrain, à l’écoute et à la transparence.</p>
+            <p class="body-copy">Ce portfolio rassemble une sélection de mes reportages TV, de mes vidéos réalisées au format mobile (Mojo) et de mes photographies.</p>
+          </div>
+          <aside class="contact-card" id="contact">
+            <div class="contact-card-top"><span class="section-kicker">02 / CONTACT</span><span class="contact-symbol">↗</span></div>
+            <h2>Un sujet en tête ?<br><em>Parlons-en.</em></h2>
+            <p>Pour une collaboration, une commande ou simplement échanger autour d’un projet.</p>
+            <a class="contact-line" href="mailto:leb.iskandar@gmail.com"><span>E-MAIL</span><strong>leb.iskandar@gmail.com</strong><b>↗</b></a>
+            <a class="contact-line" href="https://www.instagram.com/iskandareporter/?hl=fr" target="_blank" rel="noreferrer"><span>RÉSEAU</span><strong>Instagram</strong><b>↗</b></a>
+            <a class="contact-line" class="contact-line" href="./cv.pdf" target="_blank" rel="noreferrer"><span>DOCUMENT</span><strong>Mon CV (PDF)</strong><b>↓</b></a>
+          </aside>
+        </section>
+
+        <section class="selected-work">
+          <div><p class="section-kicker">03 / EXPLORER</p><h2>Mes formats,<br><em>plusieurs regards.</em></h2></div>
+          <button class="format-link" data-go-tab="tv"><span class="format-number">01</span><span><strong>Reportages TV</strong><small>Reportages formats jt et magazine </small></span><b>↗</b></button>
+          <button class="format-link" data-go-tab="mojo"><span class="format-number">02</span><span><strong>Mojo</strong><small>Vidéos incarnés pour réseaux sociaux </small></span><b>↗</b></button>
+          <button class="format-link" data-go-tab="photos"><span class="format-number">03</span><span><strong>Photographies</strong><small>Manifestations, portraits et scènes du quotidien</small></span><b>↗</b></button>
+        </section>
+      </section>
+
+      <!-- ONGLET REPORTAGES TV : duplique un article .work-card pour chaque reportage -->
+      <section class="page-panel" id="panel-tv" role="tabpanel" aria-labelledby="tab-tv" data-panel="tv" hidden>
+        <div class="page-heading">
+          <div><p class="section-kicker">SÉLECTION / 01</p><h1>Reportages <em>TV</em></h1><p class="heading-description">Aller sur le terrain, recueillir les témoignages, décrypter les faits : raconter l’actualité au plus près de ceux qui la vivent</p></div>
+          <div class="heading-stamp">FORMAT<br><strong>16:9</strong><span>REPORTAGE</span></div>
+        </div>
+        <div class="work-list">
+          <!-- MODÈLE REPORTAGE TV : copie tout le bloc <article class="work-card"> ... </article> pour ajouter un reportage. -->
+           <article class="work-card">
+            <div class="work-card-heading"><span class="work-index">TV — 001</span><span class="work-category">SOCIÉTÉ · 2026</span></div>
+            <h2>Lycées : face au manque de profs, la colère monte</h2>
+            <p class="synopsis"><strong>Synopsis</strong> — Dans le sillage des manifestations lycéennes du 13 octobre, le manque d’enseignants s’impose comme l’une des principales revendications des élèves mobilisés. Alors que certains témoignent de cours sans professeurs, le ministre de l’Éducation annonce le déploiement de plus de 3 000 enseignants remplaçants (TZR). Sur le terrain, entre blocus et manifestations, nous avons recueilli la parole de lycéens, d’un enseignant remplaçant de l’académie d’Aix-Marseille et d’une directrice d’école, porte-parole d’un syndicat de directeurs dans l’académie de Créteil, où la mobilisation a débuté. Un reportage au cœur d’une crise qui interroge les moyens de l’Éducation nationale.</p>
+            <div class="credits-row"><p><span>AUTEURS</span><strong>Iskandar Lebcira (JRI), Enora Gauthier (Rédactrice)</strong></p><p><span>Production</span><strong>IPJ · 14 octobre 2026</strong></p><p><span>MON RÔLE</span><strong>Recherche du sujet · Calage · Cadrage · Tournage · Montage</strong></p></div>
+            <div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/d-jc2mhOE3s" title="Titre de votre reportage TV" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p class="video-note"></p>
+          </article>
+          
+          <article class="work-card">
+            <div class="work-card-heading"><span class="work-index">TV — 002</span><span class="work-category">Actu · 2026</span></div>
+            <h2>Incendie du Marché des Enfants-Rouges</h2>
+            <p class="synopsis"><strong>Synopsis</strong> — Quelques heures après l’incendie qui a ravagé le marché historique des Enfants-Rouges, à Paris, commerçants et habitants découvrent les dégâts au petit matin. Entre sidération, émotion et inquiétude pour l’avenir, les premières réactions témoignent du choc provoqué par la disparition de ce lieu emblématique du quartier.</p>
+            <div class="credits-row"><p><span>AUTEURS</span><strong>Iskandar Lebcira (JRI), Enora Gauthier (Rédactrice)</strong></p><p><span>Production</span><strong>IPJ · 12 octobre 2026</strong></p><p><span>MON RÔLE</span><strong>Cadrage · Tournage · Montage</strong></p></div>
+            <div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/RYZERl6et8U" title="Titre de votre reportage TV" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p class="video-note"></p>
+          </article>
+
+          <article class="work-card">
+            <div class="work-card-heading"><span class="work-index">TV — 003</span><span class="work-category">SOCIÉTÉ · 2026</span></div>
+            <h2>Du burn-out aux projecteurs : devenir drag queen</h2>
+            <p class="synopsis"><strong>Synopsis</strong> — Après un burn-out, Laurent décide de changer de vie et devient Kissy Bang Bang. Au fil des années, il transforme sa passion pour le drag en véritable métier et se fait un nom sur la scène parisienne. À travers son parcours, ce reportage explore la professionnalisation du drag : comment vivre de cet art, construire sa carrière et trouver sa place dans un milieu en pleine évolution ?</p>
+            <div class="credits-row"><p><span>AUTEURS</span><strong>Iskandar Lebcira (JRI), Rafael Dufour (Rédacteur)</strong></p><p><span>Production</span><strong>IPJ · 10 avril 2026</strong></p><p><span>MON RÔLE</span><strong>Recherche du sujet · Calage · Cadrage · Tournage · Montage</strong></p></div>
+            <div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/19DagMe4kJw" title="Titre de votre reportage TV" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p class="video-note">
+          </article>
+
+          <article class="work-card">
+            <div class="work-card-heading"><span class="work-index">TV — 004</span><span class="work-category">Actu · 2026</span></div>
+            <h2>Carburant trop cher : opération escargot sur le périphérique</h2>
+            <p class="synopsis"><strong>Synopsis</strong> — Le 30 mars 2026, des transporteurs routiers ont mené une opération escargot sur une partie du périphérique parisien pour protester contre la hausse des prix du carburant. À l’appel de l’Organisation des transporteurs routiers européens (OTRE), les professionnels jugent insuffisante l’aide de 20 centimes par litre proposée par l’État. Retour sur une mobilisation destinée à faire entendre les difficultés du secteur.</p>
+            <div class="credits-row"><p><span>AUTEURS</span><strong>Iskandar Lebcira (Rédacteur), Guilhem Brunet (JRI)</strong></p><p><span>Production</span><strong>IPJ · 30 mars 2026 </strong></p><p><span>MON RÔLE</span><strong>Rédacteur · Interview · Commentaire</strong></p></div>
+            <div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/GqPxxm7ce0c" title="Titre du second reportage TV" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p class="video-note"></p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ONGLET MOJO : mêmes champs, adaptés au format mobile -->
+      <section class="page-panel" id="panel-mojo" role="tabpanel" aria-labelledby="tab-mojo" data-panel="mojo" hidden>
+        <div class="page-heading">
+          <div><p class="section-kicker">SÉLECTION / 02</p><h1>Vidéos <em>Mojo</em></h1><p class="heading-description">Des formats mobiles, réactifs et proches du terrain, pensés pour raconter l’essentiel.</p></div>
+          <div class="heading-stamp stamp-vertical">FORMAT<br><strong>9:16</strong><span>VIDÉO MOBILE</span></div>
+        </div>
+        <div class="work-list">
+          <!-- MODÈLE MOJO : copie l'article complet pour chaque nouvelle vidéo mobile. -->
+          <article class="work-card">
+            <div class="work-card-heading"><span class="work-index">MOJO — 001</span><span class="work-category">Culture · 2026</span></div>
+            <h2>Les Grammy Awards bientôt en Afrique ?</h2>
+            <p class="synopsis"><strong>Synopsis</strong> — Pourquoi les Grammy Awards n’ont-ils jamais organisé de cérémonie en Afrique ? Alors que la Recording Academy, l’organisme derrière les célèbres récompenses musicales, cherche à renforcer sa présence sur le continent, le Kenya, le Nigeria et l’Afrique du Sud sont en lice pour accueillir un futur hub africain. Dans le cadre de la visite de son président, Panos A. Panay, à Nairobi, cette vidéo explicative revient sur les ambitions de l’institution et les enjeux de son implantation en Afrique, au cœur d’une industrie musicale en pleine expansion.</p>
+            <div class="credits-row"><p><span>AUTEURS</span><strong>Iskandar Lebcira</strong></p><p><span>Production</span><strong>IPJ</strong></p><p><span>VOTRE RÔLE</span><strong>Recherche de sujet · Script · Tournage · Montage</strong></p></div>
+            <div class="video-wrap video-vertical"><iframe src="https://www.youtube-nocookie.com/embed/pTfpcpEG080" title="Titre de votre vidéo Mojo" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+            <p class="video-note"></p>
+          </article>
+        </div>
+      </section>
+          
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><a class="footer-mark" href="#accueil" data-home-link>IL<span>.</span></a><p>Portfolio journalistique · <span id="year"></span></p><p>Conçu pour raconter le réel.</p><button data-go-tab="accueil" class="back-top">Retour à l’accueil ↑</button></footer>
+  </div>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Photographie agrandie"><button class="lightbox-close" aria-label="Fermer la photographie">✕</button><img id="lightbox-image" src="" alt="Photographie agrandie"></dialog>
+  <script src="script.js"></script>
+</body>
+</html>
